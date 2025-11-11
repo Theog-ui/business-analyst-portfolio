@@ -1,4 +1,4 @@
-# Business Analyst / Content Ops Mini‑Portfolio — Lopamudra Naik (“Mouse”)
+# Business Analyst / Content Ops Mini‑Portfolio — Lopamudra Naik
 
 This pack shows scenario/case writing, structured formats (TSV/CSV, JSON, HTML, XML, Markdown),
 QA rubrics, SOPs, stakeholder updates, and simple reporting. All data is synthetic and safe to share.
@@ -19,6 +19,4 @@ QA rubrics, SOPs, stakeholder updates, and simple reporting. All data is synthet
 - `outreach_note.md` — Short note you can send with an application.
 - `pinned_post.md` — Caption to pin on LinkedIn with the portfolio link.
 
-**How to use**
-- Upload the folder to Notion or GitHub and add the link to your LinkedIn Featured.
-- In applications, reference “scenario pack (TSV/JSON/HTML/XML) + QA rubric + SOP + metrics.”
+
