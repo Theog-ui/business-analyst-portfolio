@@ -1,0 +1,4 @@
+id	item_id	issue_type	severity	before	after	owner	date
+Q1	S3	Logic	High	Recommended single‑pass QA	Adopted two‑step QA with capacity model	Reviewer A	2025-11-11
+Q2	S2	Metrics	Medium	Cited CTR only	Added CVR and projected lift	Reviewer B	2025-11-11
+Q3	S1	Constraints	Low	Ignored eng freeze	Added 30‑day no‑eng plan	Reviewer A	2025-11-11

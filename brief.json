@@ -1,0 +1,53 @@
+{
+  "title": "SaaS Pricing & Packaging Decision",
+  "goal": "Increase net revenue by 12% in 2 quarters while keeping NPS within -2 points.",
+  "background": {
+    "arpa": 64,
+    "churn_pct": 8.0,
+    "cac": 180,
+    "nps": 28
+  },
+  "options": [
+    {
+      "name": "Price +10%",
+      "pros": [
+        "Immediate revenue"
+      ],
+      "cons": [
+        "Churn risk"
+      ],
+      "constraints": [
+        "No engineering work"
+      ]
+    },
+    {
+      "name": "Add Team tier",
+      "pros": [
+        "Better fit for 8\u201330 seats"
+      ],
+      "cons": [
+        "Packaging effort"
+      ],
+      "constraints": [
+        "Light engineering"
+      ]
+    }
+  ],
+  "constraints": [
+    "No eng headcount for 30 days",
+    "CAC payback < 8 months",
+    "Enterprise discounts unchanged"
+  ],
+  "acceptance_criteria": [
+    "Compare unit economics",
+    "60\u2011day experiment + KPIs",
+    "Risk register with triggers/mitigations"
+  ],
+  "stakeholders": [
+    "Finance",
+    "Product",
+    "Sales",
+    "Support"
+  ],
+  "timeline_days": 60
+}

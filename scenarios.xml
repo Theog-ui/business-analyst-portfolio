@@ -1,0 +1,47 @@
+<scenarios>
+  <scenario id="S1" domain="Finance">
+    <title>SaaS pricing vs. packaging</title>
+    <text>B2B SaaS with 8% churn considers +10% price or new 'Team' tier.</text>
+    <inputs>ARPA=$64; CAC=$180; NPS=28; churn=8%</inputs>
+    <constraints>No eng headcount 30 days; CAC payback < 8 months</constraints>
+    <acceptanceCriteria>Compare unit economics; 60‑day experiment plan; success metrics</acceptanceCriteria>
+    <dimensions>Accuracy; Quant reasoning; Actionability; Risk; Structure</dimensions>
+    <edgeCases>Churn +2pp breakeven; SSO delay placeholder</edgeCases>
+  </scenario>
+  <scenario id="S2" domain="E‑commerce">
+    <title>High cart abandonment</title>
+    <text>DTC brand has 76% cart abandonment; shipping threshold $50; AOV $44.</text>
+    <inputs>AOV=$44; threshold=$50; email CTR 4.1%; CVR 2.3%</inputs>
+    <constraints>No coupons; can change threshold + cadence</constraints>
+    <acceptanceCriteria>3‑step reminder flow; threshold test; projected impact table</acceptanceCriteria>
+    <dimensions>Relevance; Quant reasoning; Actionability; Structure</dimensions>
+    <edgeCases>International shipping costs</edgeCases>
+  </scenario>
+  <scenario id="S3" domain="Operations">
+    <title>Two‑step QA vs. single pass</title>
+    <text>Team FPAR 62%, avg TAT 32h. Proposal: add peer+lead QA.</text>
+    <inputs>Throughput target 120/wk; current 95</inputs>
+    <constraints>Headcount fixed; 30‑day improvement window</constraints>
+    <acceptanceCriteria>Capacity model; rollout; expected FPAR/TAT after 2 weeks</acceptanceCriteria>
+    <dimensions>Quant reasoning; Actionability; Structure; Accuracy</dimensions>
+    <edgeCases>Promo weeks spike</edgeCases>
+  </scenario>
+  <scenario id="S4" domain="Policy">
+    <title>Refund policy tightening</title>
+    <text>Abuse of 'no questions asked' refunds; propose RMA and 21‑day window.</text>
+    <inputs>Refund 6.2%; disputes 0.7%; CSAT 4.3/5</inputs>
+    <constraints>EU/UK rules; maintain CSAT ≥4.2</constraints>
+    <acceptanceCriteria>Policy draft; risk/mitigation table; measurement plan</acceptanceCriteria>
+    <dimensions>Completeness; Risk; Clarity; Structure</dimensions>
+    <edgeCases>Partial returns fraud</edgeCases>
+  </scenario>
+  <scenario id="S5" domain="People Ops">
+    <title>Contractor vs. FT mix</title>
+    <text>1‑month project; possible extension; need 3 analysts</text>
+    <inputs>Budget $18k; ramp 1 week; output 1,200 items</inputs>
+    <constraints>4h PST overlap; no entity in DE/FR</constraints>
+    <acceptanceCriteria>Cost/schedule/risk; RACI; onboarding checklist</acceptanceCriteria>
+    <dimensions>Actionability; Risk; Structure</dimensions>
+    <edgeCases>Mid‑project scope creep</edgeCases>
+  </scenario>
+</scenarios>
